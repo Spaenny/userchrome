@@ -95,6 +95,11 @@
   background-color: var(--color10) !important;
 }
 
+/* Stop the url bar from shifting when the hamburger menu is shown */
+#nav-bar:hover #urlbar {
+  padding-left: 25px !important;
+}
+
 /* Makes the address bar and search bar borderless */
 #urlbar, .searchbar-textbox {
   border: none !important; 
