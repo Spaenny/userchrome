@@ -15,3 +15,4 @@ Hnaguski licensed this under the MIT license and I will be keeping my changes un
 # More screenshots
 
 ![scrot2](https://ptpb.pw/jY3j.png)
+![scrot3](https://ptpb.pw/j7BT.png)
