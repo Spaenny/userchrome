@@ -1,4 +1,4 @@
-@import url("file:///home/henry/.config/wpg/current.css");
+@import url("file:///home/kota/.cache/wal/colors.css");
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  $     /$$   /$$                    /$$    /$$         
@@ -227,8 +227,8 @@ display:none !important;
 
 /* Color unselected tab */
 .tab-content{
-  background-color: var(--color15) !important;
-  color: var(--color0) !important;
+  background-color: var(--color8) !important;
+  color: var(--color15) !important;
 }
 
 
@@ -363,8 +363,8 @@ display:none !important;
 
 /* Color hamburger menu */
 #appMenu-mainView {
-  background-color: var(--color0) !important;
-  color: var(--color15)
+  background-color: var(--color15) !important;
+  color: var(--color0)
 }
 
 /* Remove the "Sign in to sync" from top of photon hamburger menu. */
@@ -440,6 +440,17 @@ display:none !important;
   margin-right:-12px!important;
   overflow-y:scroll;
   overflow-x:hidden;
+}
+
+/* remove overflow button */
+#nav-bar-overflow-button {
+  display: none !important;
+  background-color: var(--color0) !important;
+}
+
+/* fix weird grey block */
+#navigator-toolbox > toolbar:not(#toolbar-menubar):not(#TabsToolbar) {
+	background-image: none !important;
 }
 
 /* Remove "Send Page to Device", "Send Link to Device", "Send Tab to Device" from context menu. */
