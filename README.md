@@ -7,7 +7,9 @@ It has compatibility for using colors generated with [wal](https://github.com/dy
 # Usage
 Simply clone this repository then make a symbolic link to ~/.mozilla/firefox/yourfirefoxid.default/chrome/userChrome.css  
 for example it would be something like the command below but with a *different* ID number for you  
-`ln -s /home/kota/git/userchrome/userChrome.css /home/kota/.mozilla/firefox/z869u13q.default/chrome/userChrome.css`
+`ln -s /home/kota/git/userchrome/userChrome.css /home/kota/.mozilla/firefox/z869u13q.default/chrome/userChrome.css`  
+
+**HOW TO ENABLE THE SCROLLBAR** - To enable the scrollbar simply comment out line 437 through 443 (everything is quite well commented and you can enable and disable most features of this theme by commenting out selected parts)  
 
 # License
 Hnaguski licensed this under the MIT license and I will be keeping my changes under those terms.
